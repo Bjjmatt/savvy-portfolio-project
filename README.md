@@ -1,5 +1,5 @@
-# Hello World
+Matthew Ricehouse
 
-# Welcome to Matthew's Savvy Coders Website
+bjjmatt@yahoo.com
 
-This portfolio will hold all of the cool activities that we tackle in the February 2018 Savvy Coders cohort.
+(636)577-0580
