@@ -1,25 +1,57 @@
+#header {
+  width: auto;
+  background-color: red;
+}
+#navigation {
+  background-color: blue;
+}
+#content {
+  border: 2em;
+  font-size: 2em;
+  background-color: red;
+  margin-right: auto;
+}
+#footer {
+  color: grey;
+  background-color: blue;
+  margin-left: auto;
+}
+div.container {
+  max-width: 700px;
+  margin: 0 auto;
+
+}
+li {
+  background-color: yellow;
+}
 h1 {
-    color: orange;
-    font-size: 5em;
-    background-color: grey;
-    }
+  border-spacing: auto;
+  color: red;
+  background-color: green;
+  border-spacing: auto;
+  background-color: purple;
+}
 h2 {
-    color: grey;
-    background-color: blue;
-  }
-.dropkick {
-    color: blue;
-    background-color: red;
-  }
+  border-spacing: auto;
+  color: red;
+  background-color: green;
+  border-spacing: auto;
+  background-color: purple;
+
+}
 .sidekick {
-    color: red;
-    background-color: green;
-  }
+  border-spacing: auto;
+  color: red;
+  background-color: green;
+  border-spacing: auto;
+  background-color: purple;
+}
 #barf {
-    color: green;
-    background-color: purple;
-  }
+  color: green;
+  background-color: purple;
+  padding: auto;
+}
 #axekick {
-    color: purple;
-    background-color: yellow;
-  }
+  color: purple;
+  background-color: yellow;
+}
