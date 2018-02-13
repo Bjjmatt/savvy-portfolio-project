@@ -1,4 +1,61 @@
+li {
+  color:purple;
+  text-align: center;
+  padding: 5px 10px;
+}
+h1 {
+  color:green;
+  text-align: center;
+  padding: 5px 10px;
+}
+h2 {
+  color:red;
+  text-align: center;
+  padding: 5px 10px;
+}
+h3 {
+  color:blue;
+  text-align: center;
+  padding: 5px 10px;
+}
+h4 {
+  color:orange;
+  text-align: center;
+  padding: 5px 10px;
+}
+p {
+  color:brown;
+  text-align: center;
+  padding: 5px 10px;
+}
 #header {
+  color:green;
+  text-align: center;
+  padding: 5px 10px;
+}
+#navigation {
+  color:green;
+  text-align: center;
+  padding: 5px 10px;
+}
+#content {
+  color:green;
+  text-align: center;
+  padding: 5px 10px;
+}
+#footer {
+  color:green;
+  text-align: center;
+  padding: 5px 10px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+/*#header {
   width: auto;
   background-color: red;
 }
@@ -55,3 +112,4 @@ h2 {
   color: purple;
   background-color: yellow;
 }
+*/
