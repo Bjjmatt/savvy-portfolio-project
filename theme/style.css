@@ -1,14 +1,21 @@
 li {
+  background-color:yellow;
   color:purple;
   text-align: center;
   padding: 5px 10px;
 }
 h1 {
+  border-spacing: auto;
+  background-color: purple;
   color:green;
   text-align: center;
   padding: 5px 10px;
 }
 h2 {
+  border-spacing: auto;
+  background-color: green;
+  border-spacing: auto;
+  background-color: purple;
   color:red;
   text-align: center;
   padding: 5px 10px;
@@ -29,11 +36,14 @@ p {
   padding: 5px 10px;
 }
 #header {
+  width: auto;
+  background-color: red;
   color:green;
   text-align: center;
   padding: 5px 10px;
 }
 #navigation {
+  background-color: blue;
   color:green;
   text-align: center;
   padding: 5px 10px;
@@ -44,57 +54,15 @@ p {
   padding: 5px 10px;
 }
 #footer {
-  color:green;
+  color: grey;
+  background-color: blue;
+  margin-left: auto;
   text-align: center;
   padding: 5px 10px;
 }
 .container {
   max-width: 960px;
   margin: 0 auto;
-}
-
-
-
-/*#header {
-  width: auto;
-  background-color: red;
-}
-#navigation {
-  background-color: blue;
-}
-#content {
-  border: 2em;
-  font-size: 2em;
-  background-color: red;
-  margin-right: auto;
-}
-#footer {
-  color: grey;
-  background-color: blue;
-  margin-left: auto;
-}
-div.container {
-  max-width: 700px;
-  margin: 0 auto;
-
-}
-li {
-  background-color: yellow;
-}
-h1 {
-  border-spacing: auto;
-  color: red;
-  background-color: green;
-  border-spacing: auto;
-  background-color: purple;
-}
-h2 {
-  border-spacing: auto;
-  color: red;
-  background-color: green;
-  border-spacing: auto;
-  background-color: purple;
-
 }
 .sidekick {
   border-spacing: auto;
@@ -112,4 +80,3 @@ h2 {
   color: purple;
   background-color: yellow;
 }
-*/
