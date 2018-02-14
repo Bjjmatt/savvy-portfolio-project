@@ -42,11 +42,29 @@ p {
   text-align: center;
   padding: 5px 10px;
 }
-#navigation {
+#navigation > ul >li {
+  display: inline;
+  list-style: none;
   background-color: blue;
   color:green;
   text-align: center;
   padding: 5px 10px;
+}
+#navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 1.3rem;
+  width: 100vw;
+}
+#navigation .dropdown {
+  display: none;
+  position: absolute;
+  text-align: center;
+}
+.navigation a:hover + .dropdown {
+  display: block;
+  text-align: center;
 }
 #content {
   color:green;
@@ -60,6 +78,15 @@ p {
   text-align: center;
   padding: 5px 10px;
 }
+#barf {
+  color: green;
+  background-color: purple;
+  padding: auto;
+}
+#axekick {
+  color: purple;
+  background-color: yellow;
+}
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -70,13 +97,4 @@ p {
   background-color: green;
   border-spacing: auto;
   background-color: purple;
-}
-#barf {
-  color: green;
-  background-color: purple;
-  padding: auto;
-}
-#axekick {
-  color: purple;
-  background-color: yellow;
 }
