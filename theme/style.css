@@ -1,15 +1,37 @@
-.container {
-  border-spacing: auto;
+/* Page Container */
+.pagecontainer {
+  background-color: silver;
+  max-width: 100vw;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+/* Navigation Div */
+#navigation {
+  position: fixed;
+  color: white;
   text-align: center;
-  max-width: auto;
+  width: 100vw;
+  top: 0;
+  left: 0;
 }
 
-.pagecontainer {
-  background-color: grey;
-  max-width: 100vw;
-  padding-left: 30px;
-  padding-right: 30px;
+#navigation a:hover + .dropdown {
+  display: block;
 }
+
+#navigation ul.container {
+  list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#navigation ul.dropdown {
+  display: none;
+  list-style: none;
+}
+
+/* Header Div */
 #header {
   text-align: center;
   color: white;
@@ -18,38 +40,13 @@
   height: auto;
   max-width: auto;
 }
-#navigation {
-  background-color: black;
-  color: white;
-  display: block;
-  text-align: left;
-  height: auto;
-  max-width: auto;
-}
-#navigation:hover .dropdown {
-  display: block;
-  text-align: left;
-  height: auto;
-  max-width: auto;
-}
-.intro {
-  color: white;
-  text-align: center;
-  padding: 5px 10px;
-}
-.dropdown {
-  color: red;
-  position: absolute;
-  z-index: 100;
-  display: none;
-  text-align: left;
-  padding: 5px 10px;
-}
+/* Content Div */
 #content {
   background-color: white;
   text-align: center;
   padding: 5px 10px;
 }
+/* Footer Div */
 #footer {
   color: white;
   background-color: black;
@@ -61,11 +58,7 @@
 h3 {
   padding: 5px 10px;
 }
-h2 {
-  text-align: left;
-  padding: 5px 10px;
-}
-p {
+#content .container p {
   text-align: left;
   text-indent: 50px;
   padding: 5px 10px;
