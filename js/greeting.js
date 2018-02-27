@@ -1,4 +1,3 @@
-
 var greetUser = function greetUser(){
     var firstName = prompt( "What's your name?" );
 
@@ -6,7 +5,8 @@ var greetUser = function greetUser(){
         greetUser();
     }
     else{
-        alert( "Hello " + firstName );
+        console.log( document.querySelectorAll( .container ) )
+
     }
 };
 
